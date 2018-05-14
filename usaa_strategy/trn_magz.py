@@ -5,7 +5,8 @@
 # MAGIC ##### Description: Outcome
 # MAGIC Author: Yifei Wang
 # MAGIC ###### Release History
-# MAGIC * 2018-05-02 Fixed Jira issues 101
+# MAGIC * 2018-05-09 Add checksum
+# MAGIC * 2018-05-0 Fixed Jira issues 101
 # MAGIC * 2018-04-30 Release to QA
 # MAGIC * 2018-04-20 Implemented QA feedback
 # MAGIC * 2018-04-19 Peer review completed
@@ -215,6 +216,10 @@ from df_all1
 # COMMAND ----------
 
 df_out = fill_gap(df_out.where('value is not null'),ts_start=from_date, ts_end=to_date, align_to='FR', align_BeginEnd='E', fill_method='zero')
+
+# COMMAND ----------
+
+#checksum
 
 # COMMAND ----------
 
