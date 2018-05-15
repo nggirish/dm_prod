@@ -5,7 +5,8 @@
 # MAGIC ##### Description: Outcome
 # MAGIC Author: Yifei Wang
 # MAGIC ###### Release History
-# MAGIC * 2018-04-20 Implemented QA feedback
+# MAGIC * 2018-05-15 fixed the bug zzz
+# MAGIC * 2018-04-14 Added computed variable ZZ_123
 # MAGIC * 2018-04-19 Peer review completed
 # MAGIC * 2018-04-12
 
